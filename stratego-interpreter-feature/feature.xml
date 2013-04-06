@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="stratego_interpreter_feature"
+      label="Stratego Interpreter"
+      version="0.17.92.qualifier">
+
+   <description url="http://www.strategoxt.org/">
+      Stratego/XT is a language and toolset for program transformation. The Stratego language provides rewrite rules for expressing basic transformations, programmable rewriting strategies for controlling the application of rules, concrete syntax for expressing the patterns of rules in the syntax of the object language, and dynamic rewrite rules for expressing context-sensitive transformations, thus supporting the development of transformation components at a high level of abstraction.
+   </description>
+
+   <copyright>
+      Copyright (C) 1998-2012 Eelco Visser
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      This library is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2 of the License, or (at your option) any later version.
+
+  This library is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public
+  License along with this library; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
+   </license>
+
+   <url>
+      <discovery label="Spoofax update site" url="http://download.spoofax.org/update/stable"/>
+   </url>
+
+   <requires>
+      <import plugin="org.spoofax.aterm"/>
+      <import plugin="org.spoofax.jsglr" version="0.3.0" match="greaterOrEqual"/>
+      <import plugin="org.spoofax.interpreter.library.language" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.spoofax.interpreter.library.xml"/>
+      <import plugin="org.spoofax.interpreter.library.interpreter"/>
+      <import plugin="org.eclipse.ant.core" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.spoofax.interpreter.library.index" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.junit"/>
+      <import plugin="org.spoofax.interpreter.library.jline"/>
+      <import plugin="org.spoofax.interpreter.library.jsglr" version="0.3.9" match="greaterOrEqual"/>
+      <import plugin="org.spoofax.interpreter.library.java" version="0.1.0" match="greaterOrEqual"/>
+      <import plugin="org.junit4"/>
+      <import plugin="org.eclipse.ui"/>
+   </requires>
+
+   <plugin
+         id="org.strategoxt.strj"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.spoofax.compiler"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.spoofax.terms"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.spoofax.interpreter"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.spoofax.interpreter.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.spoofax.interpreter.library.jsglr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.spoofax.jsglr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

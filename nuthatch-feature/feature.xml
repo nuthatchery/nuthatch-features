@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="nuthatch_feature"
+      label="Nuthatch/J"
+      version="0.99.0.qualifer">
+
+   <description url="http://nuthatchery.org/">
+      Nuthatch/J is a library for software transformation and analysis,
+based on tree walking.
+
+Transformations are described as walks that proceed in programmer-defined
+steps. Each step may which may observe join points of a traversal,
+and affect state associated with the walk and also rewrite the
+walked tree. Each step ends by walking to a different node in
+the tree, following the tree branches.
+
+This package contains the core Nuthatch/J library.
+   </description>
+
+   <copyright url="http://nuthatchery.org/copyright">
+      Copyright © 2013 Anya Helene Bagge
+   </copyright>
+
+   <license url="http://nuthatchery.org/copyright">
+      This library is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this library.  If not, see http://www.gnu.org/licenses/.
+   </license>
+
+   <plugin
+         id="nuthatch"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
