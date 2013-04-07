@@ -2,7 +2,8 @@
 <feature
       id="nuthatch_feature"
       label="Nuthatch/J"
-      version="0.99.0.qualifer">
+      version="0.99.0.qualifier"
+      provider-name="The Nuthatchery / Anya Helene Bagge">
 
    <description url="http://nuthatchery.org/">
       Nuthatch/J is a library for software transformation and analysis,
@@ -22,7 +23,9 @@ This package contains the core Nuthatch/J library.
    </copyright>
 
    <license url="http://nuthatchery.org/copyright">
-      This library is free software: you can redistribute it and/or modify
+      GNU Lesser General Public License v3
+   
+This library is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as
 published by the Free Software Foundation, either version 3 of the
 License, or (at your option) any later version.

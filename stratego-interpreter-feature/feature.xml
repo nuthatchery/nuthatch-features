@@ -2,7 +2,8 @@
 <feature
       id="stratego_interpreter_feature"
       label="Stratego Interpreter"
-      version="0.17.92.qualifier">
+      version="0.17.92.qualifier"
+      provider-name="The Nuthatchery / Anya Helene Bagge">
 
    <description url="http://www.strategoxt.org/">
       Stratego/XT is a language and toolset for program transformation. The Stratego language provides rewrite rules for expressing basic transformations, programmable rewriting strategies for controlling the application of rules, concrete syntax for expressing the patterns of rules in the syntax of the object language, and dynamic rewrite rules for expressing context-sensitive transformations, thus supporting the development of transformation components at a high level of abstraction.
@@ -13,6 +14,8 @@
    </copyright>
 
    <license url="http://www.example.com/license">
+      GNU Lesser General Public License v2
+   
       This library is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
   License as published by the Free Software Foundation; either

@@ -2,10 +2,11 @@
 <feature
       id="nuthatch_stratego_feature"
       label="Nuthatch/J+Stratego"
-      version="0.99.0.qualifier">
+      version="0.99.0.qualifier"
+      provider-name="The Nuthatchery / Anya Helene Bagge">
 
    <description url="http://nuthatchery.org/">
-This library extends Nuthatch/J with support for Stratego/XT terms and an interface to the JSGLR parser table evaluator.
+      This library extends Nuthatch/J with support for Stratego/XT terms and an interface to the JSGLR parser table evaluator.
    </description>
 
    <copyright url="http://nuthatchery.org/copyright">
@@ -13,6 +14,8 @@ This library extends Nuthatch/J with support for Stratego/XT terms and an interf
    </copyright>
 
    <license url="http://nuthatchery.org/copyright">
+      GNU Lesser General Public License v3
+
 This library is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as
 published by the Free Software Foundation, either version 3 of the
