@@ -2,7 +2,7 @@
 <feature
       id="nuthatch_pdb_feature"
       label="Nuthatch/J+PDB"
-      version="0.99.0.qualifier"
+      version="0.99.2.qualifier"
       provider-name="The Nuthatchery / Anya Helene Bagge">
 
    <description url="http://nuthatchery.org/">
